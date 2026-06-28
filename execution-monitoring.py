@@ -127,4 +127,24 @@ for text in (
     phrase_b,
     phrase_c,
 ):
-    print(text
+    print(text)
+
+print(
+    "Nonce:",
+    payload["nonce"]
+)
+
+print(
+    "Gas:",
+    payload["gas"]
+)
+
+print(
+    "Signature:",
+    len(encoded)
+)
+
+print(
+    "Completed"
+)
+```
